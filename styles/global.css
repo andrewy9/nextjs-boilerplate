@@ -1,0 +1,12 @@
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    margin: 8px;
+    margin-top: 43px;
+}

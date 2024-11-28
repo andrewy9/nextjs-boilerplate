@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import NavBar from "@/components/layouts/NavBar/NavBar";
 import "@/styles/global.css";
 import StyledComponentsRegistry from "@/lib/registry";
 
@@ -20,7 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <StyledComponentsRegistry>
-          <NavBar />
           {children}
         </StyledComponentsRegistry>
       </body>
